@@ -1,6 +1,17 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+@import "tailwindcss";
 
 * {
     font-family: "Inter", sans-serif;
+}
+
+.container2 {
+    width: 93%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .container2 {
+        width: 1350px;
+    }
 }
